@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+
+
+
+<style>
+
+
+.row::after{
+content:"";
+display:table;
+	clear:both; 
+	}
+	
+		
+</style>
+</head>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://
+cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.6.3/css/font-awesome.min.css">
+<style>
+
+
+.icon-bar {
+    width: 100%;
+    text-align: center;
+    background-color: #555;
+    overflow:auto;
+}
+
+.icon-bar a {
+	width:20%;
+    padding: 12px 0;
+    display: block;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    float:left;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #48d1cc
+    !important;
+}
+
+
+    footer{
+   
+        
+        width:100%;
+        background: #555;
+        color:#d9d9d9;
+       
+    
+    }
+    .main-content{
+        display:flex;
+    }
+    .main-content .box{
+        flex-basic:50%;
+        padding:10px 20px;
+    }
+    .box h2{
+        font-size:1.125rem;
+        font-weight:600;
+        text-transform: uppercase;
+    }
+    .box .content{
+        margin:20px 0 0;
+    }
+        .box .content p{
+            text-align:justify;
+        }
+    .left .content .social{
+         margin:20px 0 0;
+
+    }
+    .left .content .social a{
+        padding:0 2px;
+    }
+    .left .content .social a span{
+        height:40px;
+        width:40px;
+        background:#1a1a1a;
+        line-height: 40px;
+        text-align:center;
+        font-size:18px;
+        border-radius:5px;
+        transition:0.3s;
+    }
+     .left .content .social a span:hover{
+        background:#f12020;
+     }
+	.copy{
+		background-color:red;
+	}
+	.text{
+		color:white;
+	}
+    .detail  h4{
+        
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    @media (min-width:375){
+
+        .col1{
+            display: block;
+            color: red;
+        }
+    }
+    @media (max-width:710px){
+        .detail h4{
+            text-align: justify;
+        }
+    }
+
+    /*  */
+    * {
+  font-family: Nunito, sans-serif;
+}
+
+.responsive-cell-block {
+  min-height: 75px;
+}
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.team-head-text {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+   font-family: Roboto, sans-serif;
+}
+
+.team-head-text {
+  line-height: 50px;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+      background: black;
+    color: white;
+ 
+}
+
+.container {
+  max-width: 1380px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.card {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  background-color: #b7a6a6;
+
+}
+
+.card-container {
+  width: 300px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.name {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.position {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.feature-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  color: rgb(122, 122, 122);
+  line-height: 30px;
+}
+
+.social-icons {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-image-wrapper {
+  clip-path: circle(50% at 50% 50%);
+  width: 200px;
+  height: 200px;
+}
+
+.team-member-image {
+  max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+}
+  
+    </style>
+<body>
+<div class="icon-bar">
+<a class="active" href="#">
+<i class="fa fa-home"></i></a>
+<a href="https://www.facebook.com/profile.php?id=100014129349426"><i class="fa fa-facebook">
+</i></a>
+<a href="https://www.facebook.com/profile.php?id=100064165717954"><i class="fa fa-globe">
+</i></a>
+</div>
+<style> 
+body { font-family: "Lato", sans-serif; 
+ background-color:green; 
+}
+.col1{
+   display: flex;
+} 
+.col2{
+    
+}
+
+.sidenav 
+{ height: 100%;
+ width: 0; 
+position: fixed;
+ z-index: 1;
+  top: 0; 
+left: 0; 
+background-color: #111;
+ overflow-x: hidden; 
+transition: 0.5s; 
+padding-top: 60px; 
+} .sidenav a 
+{ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+  font-size: 25px;
+   color: #818181; 
+   display: block;
+    transition: 0.3s } 
+    .sidenav a:hover, .offcanvas a:focus{ color: #f1f1f1; } .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; } #main { transition: margin-left .5s; padding: 16px; } @media screen and (max-height: 450px){ .sidenav {padding-top: 15px;} .sidenav a {font-size: 18px;} } </style>
+<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a>
+<a href="service.html">Services</a>
+<a href="#">Careers</a> <a href="#">Contact</a>
+</div>
+<div id="main"> <span style="font-size:30px;cursor: pointer" onclick="openNav()">&#9776; open </span> </div>
+<script> /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */ function openNav() { document.getElementById("mySidenav") .style.width="250px"; document.getElementById("main") .style.marginLeft="250px"; document.body.style.backgroundColor= "rgba(0,0,0,0.4)"; } function closeNav() { document.getElementById("mySidenav") .style.width = "0"; document.getElementById("main") .style.marginLeft= "0"; document.body.style.backgroundColor = "white"; } </script>
+<center><h1><b>कृषि प्राविधिक प्रदिप भट्ट </b></h1></center>
+
+<h3><marquee> "काउलि बन्दा मा रातो कमिलाको समस्या देखिएमा रसायनिक उपाय अन्तर्गत क्लोरोपाइरिफस २०% इ.सी.कीटनाशक बिषादी १.२ मिली प्रति लिटर पानीमा मिसाई माटोमा प्रयोग गर्नुहोला।" "अहिले मौषमको प्रभावले गोलभेडामा डडुवा रोगको प्रकोप बढदो छ त्यसलाई व्यवस्थापन गर्न कपर अक्सिक्लोराइड २ ग्राम \लिटर पानिमा हालि ५-५ दिनको फरकमा छर्कनु होला </marquee><br></h3>
+<br> <div class="detail"><h4>नमस्कार मेरो नाम प्रदिप भट्ट हो । म एक कृषि प्राविधिक हुँ। म हाल विभिन्न NGO/INGO मार्फत विभिन्न जिल्लाका किसानहरुलाई प्राविधिक सेवा दिदै आइरहेको छु । यहाँहरुले इन्टरनेटको
+माध्यमबाट पनि आफ्ना बालिमा देखिएका समस्याहरु यहाँको जानकारि बाट समाधान हुने हेतुले यो Website तयार गरिएको हो । यहाँ बाट हजुरहरुले कृषि सम्बन्धि जानकारिमुलक ज्ञान र प्रविधिहरु पाप्त गर्नुहुने छ भन्ने आशा राखेको छु ।
+<marquee></h4></div><br>
+<div class="row">
+<div class="column" margin-top:"10px">
+<img src="img/pic.gif" height="200px" width="300px">
+<img src="img/c.jpg" height="200px" width="300px">
+<img src="img/d.jpg" height="200px" width="300px"> 
+<img src="img/1.jpg" height="200px" width="300px">
+<img src="img/2.jpg" height="200px" width="300px">
+<img src="img/3.jpg" height="200px" width="300px"> 
+<img src="img/4.jpg" height="200px" width="300px">
+<img src="img/5.jpg" height="200px" width="300px"> 
+</div>
+</marquee>
+<br>
+<br>
+
+      
+        <div class="responsive-container-block">
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+         <div oncontextmenu="return false">
+     <img class="team-member-image" src="img/cauli.gif"></div>
+          </div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/kauli.pdf"> काउलि बन्दाका राेग र किरा बारे जानकारी  </a>
+          </p>
+
+          <div class="social-icons" style="text-align: center;">
+            
+            </a>
+          </div>
+        </div>
+      </div>
+        
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+  <div oncontextmenu="return false">
+            <img  src="img/TAMATO.gif" />
+          </div></div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/tmt.pdf"><b>गाेलभेडाका राेग र किरा बारे जानकारी</b> </a>
+          </p>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+  <div oncontextmenu="return false">
+            <img  src="img/aa.gif " />
+          </div></div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/aalu.pdf"><b>अालुका राेग र किरा बारे जानकारी</b> </a>
+          </p>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+  <div oncontextmenu="return false">
+            <img class="team-member-image" src="img/rice.jpg" />
+          </div></div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/aal.pdf"><b>धान बालीका रोग किराहरु बारे जानकारी </b> </a>
+          </p>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+  <div oncontextmenu="return false">
+            <img class="team-member-image" src="img/fruits.jpg" />
+          </div></div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/alu.pdf"><b>फलफुल बालिका रोग र किराहरुा बारे जानकारी</b> </a>
+          </p>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper" style="text-align: center;">
+  <div oncontextmenu="return false">
+            <img class="team-member-image" src="img/lahare.jpg" />
+          </div></div>
+          <p class="text-blk name" style="text-align: center;">
+            <a href="imag/alu.pdf"><b>लहरे बालीका रोग किरा बारे जानकारी </b>
+          </p>
+        </div>
+      </div>
+      
+      
+<!-- <div class="row1">
+    <div class="column" margin-top:"10px">
+        <a href="imag/kauli.pdf"><b> काउलि बन्दाका राेग र किरा बारे जानकारी</b></a> 
+        <img src="imag/kauli.gif" height="100px" width="200px">
+        <a href="imag/tmt.pdf"><b>गाेलभेडाका राेग र किरा बारे जानकारी</b> </a>
+        <img src="imag/TAMATO.gif" height="100px" width="200px">
+        <a href="imag/aalu.pdf"><b>अालुका राेग र किरा बारे जानकारी</b> </a>
+        <img src="imag/aalu.gif" height="100px" width="200px">
+    </div>
+    <div class="row">
+        <div class="column" margin-top:"10px">
+        <img src="imag/pic.gif" height="200px" width="300px">
+        <img src="imag/c.jpg" height="200px" width="300px">
+        <img src="imag/d.jpg" height="200px" width="300px"> 
+        </div> -->
+
+<footer>
+<div class="main-content">
+<div class="left box">
+<h2>About us</h2>
+<div class="content">
+<div class="social">
+<a href="https://www.facebook.com/profile.php?id=100014129349426"> <span class="fa fa-facebook">
+</span></a>
+<a href="#"> <span class="fa fa-twitter">
+</span>
+<a href="https://www.instagram.com/invites/contact/?i=1eugzqiaca74w&utm_content=4ix8e38"> <span class="fa fa-instagram">
+</span>
+</a>
+</a></a></div></div></div>
+<div class="center box">
+<h2>Address</h2>
+<div class="content">
+<div class="place">
+<span class="fa fa-location-arrow">
+</span>
+<span class="text">Likhu 6 nuwakot</span>
+<div class="phone">
+<span class="fa fa-phone">
+</span>
+<span class="text">+977-9848589348</span>
+<div class="email">
+<span class="fa fa-envelope">bhattapradip271@gmail.com
+</span>
+
+<div class="right box">
+<h2> Contact us</h2>
+<div class="content">
+<form action="#">
+    <div class="emc">
+<div class="email">
+<div class="text">Email *</div>
+<input type="email" requred>
+</div>
+<div class="msg">
+<div class="text">Message </div>
+<textarea name="name" rows="2" cols="25"></textarea>
+<div class="btn">
+<button type="submit">Send</button>
+</div>
+</div>
+</form>
+<div class="copy">
+<h3>Copyright © 2023 All rights reserved. Agriculture technicians Pradip bhatta</h3> 
+</div>
+</div>
+	 </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
